@@ -14,4 +14,19 @@ This project is an AI-powered grammar correction tool that detects and corrects 
 - (Optional) Deep Learning – Transformers, BERT, T5
 - Streamlit / Flask (if there's a frontend)
 
-## 📁 Project Structure
+## ⚙️ Setup Instructions
+
+1️⃣ **Clone the repository:**
+```bash
+git clone https://github.com/shashank263/grammer-correction.git
+cd grammer-correction
+python -m venv venv
+# Activate:
+# Windows:
+venv\Scripts\activate
+# Mac/Linux:
+source venv/bin/activate
+pip install textblob
+python -m textblob.download_corpora
+python grammar_corrector.py
+
